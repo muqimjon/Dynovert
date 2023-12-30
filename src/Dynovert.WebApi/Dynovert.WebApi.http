@@ -1,0 +1,6 @@
+@Dynovert.WebApi_HostAddress = http://localhost:5012
+
+GET {{Dynovert.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

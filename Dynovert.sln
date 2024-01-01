@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynovert.WebApi", "src\Dyno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynovert.Infrastructure", "src\Dynovert.Infrastructure\Dynovert.Infrastructure.csproj", "{79AF30A2-0783-432D-B2CD-D574C7B31415}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynovert.ConsoleApp", "src\Dynovert.ConsoleApp\Dynovert.ConsoleApp.csproj", "{30A2ED04-1F1C-42DF-9ECF-AC1040A15F23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{79AF30A2-0783-432D-B2CD-D574C7B31415}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79AF30A2-0783-432D-B2CD-D574C7B31415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79AF30A2-0783-432D-B2CD-D574C7B31415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A2ED04-1F1C-42DF-9ECF-AC1040A15F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A2ED04-1F1C-42DF-9ECF-AC1040A15F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A2ED04-1F1C-42DF-9ECF-AC1040A15F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A2ED04-1F1C-42DF-9ECF-AC1040A15F23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{C50535C6-09EB-4099-8F46-5D1C8F8F5309} = {EDF11D3A-843A-4987-A536-67F8D307A279}
 		{B6295211-A8BC-407C-BE36-8DE5D04F314C} = {EDF11D3A-843A-4987-A536-67F8D307A279}
 		{79AF30A2-0783-432D-B2CD-D574C7B31415} = {EDF11D3A-843A-4987-A536-67F8D307A279}
+		{30A2ED04-1F1C-42DF-9ECF-AC1040A15F23} = {EDF11D3A-843A-4987-A536-67F8D307A279}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26F39724-0012-412D-B7AE-D6931ACEE610}

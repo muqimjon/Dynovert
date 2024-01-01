@@ -34,4 +34,18 @@ public class ConvertToKryugerOrdinateCommandHandler : IRequestHandler<ConvertToK
         double totalSeconds = degrees * 3600 + minutes * 60 + seconds;
         return totalSeconds;
     }
+
+    public static double ParseToRadians(string param)
+    {
+        string[] parts = param.Split('°', '\'', '"');
+
+        double degrees = double.Parse(parts[0]);
+        double minutes = double.Parse(parts[1]);
+        double seconds = double.Parse(parts[2].Replace(',', '.'));
+
+        double totalDegrees = degrees + minutes / 60 + seconds / 3600;
+        double radians = totalDegrees * Math.PI / 180;
+
+        return radians;
+    }
 }

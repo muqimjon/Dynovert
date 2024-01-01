@@ -22,4 +22,16 @@ public class ConvertToKryugerOrdinateCommandHandler : IRequestHandler<ConvertToK
     {
         throw new NotImplementedException();
     }
+
+    public static double ParseToSeconds(string param)
+    {
+        string[] parts = param.Split('°', '\'', '"');
+
+        double degrees = double.Parse(parts[0]);
+        double minutes = double.Parse(parts[1]);
+        double seconds = double.Parse(parts[2].Replace(',', '.'));
+
+        double totalSeconds = degrees * 3600 + minutes * 60 + seconds;
+        return totalSeconds;
+    }
 }
